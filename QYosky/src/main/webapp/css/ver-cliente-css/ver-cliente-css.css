@@ -1,0 +1,62 @@
+td, th{
+    border: 1px solid rgb(128, 128, 128);
+    padding: 10px;
+    color: white;
+    background-color:#2A2B41;
+}
+
+.content{
+    width: 80%;
+    
+}
+
+@keyframes aparece {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.table{
+    animation: aparece 1s ease-in-out forwards;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: table;
+}
+
+table{
+    border-spacing: 0;
+}
+
+.edt{
+    background-color: rgb(250, 246, 4);
+    cursor: pointer;
+    width: 40%;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.exc{
+    background-color: rgb(250, 4, 4);
+    cursor: pointer;
+    width: 40%;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.edt:hover{
+    background-color: rgb(163, 161, 24);
+}
+
+.exc:hover{
+    background-color: rgb(156, 32, 32);
+}

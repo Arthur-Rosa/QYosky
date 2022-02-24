@@ -1,0 +1,88 @@
+.bar-lateral{
+    width: 15%;
+    background-color: #2A2B41;
+    height: 100vh;
+    text-align: center;
+}
+
+.logo-super{
+    margin-top: 20px;
+}
+
+.list-super{
+    margin-left: 30px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+ul{
+    color: white;
+    font-size: 24px;
+    list-style: none;
+}
+
+ul li{
+    color: #FFFFFF;
+}
+
+li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 10px;
+    transition-duration: 0.2s;
+}
+
+li a:hover {
+    color: #7a7a7a;
+}
+
+li a::before {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #F26800;
+    display: block;
+    left: 0;
+    margin-bottom: -35px;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+li a:hover::before {
+    transform: scale(1, 1);
+}
+
+li .a2::before {
+    content: '';
+    width: 75px;
+    height: 2px;
+    background-color: #F26800;
+    display: block;
+    left: 0;
+    margin-bottom: -35px;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+li .a3::before {
+    content: '';
+    width: 110px;
+    height: 2px;
+    background-color: #F26800;
+    display: block;
+    left: 0;
+    margin-bottom: -35px;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+.foot-super{
+    margin-top: 60vh;
+}
+
+h5{
+    color: white;
+}
